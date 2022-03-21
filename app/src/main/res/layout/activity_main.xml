@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/btnreset"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="28dp"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn8"
+        app:layout_constraintStart_toStartOf="@+id/btn8"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/black" />
+
+    <ImageView
+        android:id="@+id/btnmodule"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintStart_toEndOf="@+id/btnreset"
+        app:layout_constraintTop_toTopOf="@+id/btnreset"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btndivide"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintStart_toEndOf="@+id/btnmodule"
+        app:layout_constraintTop_toTopOf="@+id/btnmodule"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <TextView
+        android:id="@+id/numberreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:text="C"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnreset"
+        app:layout_constraintEnd_toEndOf="@+id/btnreset"
+        app:layout_constraintStart_toStartOf="@+id/btnreset"
+        app:layout_constraintTop_toTopOf="@+id/btnreset" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnmodule"
+        app:layout_constraintEnd_toEndOf="@+id/btnmodule"
+        app:layout_constraintStart_toStartOf="@+id/btnmodule"
+        app:layout_constraintTop_toTopOf="@+id/btnmodule" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textColor="#FFA701"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btndivide"
+        app:layout_constraintEnd_toEndOf="@+id/btndivide"
+        app:layout_constraintStart_toStartOf="@+id/btndivide"
+        app:layout_constraintTop_toTopOf="@+id/btndivide" />
+
+    <ImageView
+        android:id="@+id/btn7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="344dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btn8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintStart_toEndOf="@+id/btn7"
+        app:layout_constraintTop_toTopOf="@+id/btn7"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btn9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintStart_toEndOf="@+id/btn8"
+        app:layout_constraintTop_toTopOf="@+id/btn8"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btnmultiply"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintStart_toEndOf="@+id/btn9"
+        app:layout_constraintTop_toTopOf="@+id/btn9"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn7"
+        app:layout_constraintEnd_toEndOf="@+id/btn7"
+        app:layout_constraintStart_toStartOf="@+id/btn7"
+        app:layout_constraintTop_toTopOf="@+id/btn7" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn8"
+        app:layout_constraintEnd_toEndOf="@+id/btn8"
+        app:layout_constraintStart_toStartOf="@+id/btn8"
+        app:layout_constraintTop_toTopOf="@+id/btn8" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn9"
+        app:layout_constraintEnd_toEndOf="@+id/btn9"
+        app:layout_constraintStart_toStartOf="@+id/btn9"
+        app:layout_constraintTop_toTopOf="@+id/btn9" />
+
+    <TextView
+        android:id="@+id/basta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textColor="#FFA701"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnmultiply"
+        app:layout_constraintEnd_toEndOf="@+id/btnmultiply"
+        app:layout_constraintStart_toStartOf="@+id/btnmultiply"
+        app:layout_constraintTop_toTopOf="@+id/btnmultiply" />
+
+    <TextView
+        android:id="@+id/inputTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/outPuttxt"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:text="9+10"
+        android:textColor="#535353"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/outPuttxt" />
+
+    <TextView
+        android:id="@+id/outPuttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:text="21"
+        android:textColor="@color/black"
+        android:textSize="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/background"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/btn4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="@+id/btn7"
+        app:layout_constraintTop_toBottomOf="@+id/btn7"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btn5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="@+id/btn8"
+        app:layout_constraintTop_toTopOf="@+id/btn4"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btn6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="@+id/btn9"
+        app:layout_constraintTop_toTopOf="@+id/btn5"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btnminus"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="@+id/btnmultiply"
+        app:layout_constraintTop_toTopOf="@+id/btn6"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn4"
+        app:layout_constraintEnd_toEndOf="@+id/btn4"
+        app:layout_constraintStart_toStartOf="@+id/btn4"
+        app:layout_constraintTop_toTopOf="@+id/btn4" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn5"
+        app:layout_constraintEnd_toEndOf="@+id/btn5"
+        app:layout_constraintStart_toStartOf="@+id/btn5"
+        app:layout_constraintTop_toTopOf="@+id/btn5" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn6"
+        app:layout_constraintEnd_toEndOf="@+id/btn6"
+        app:layout_constraintStart_toStartOf="@+id/btn6"
+        app:layout_constraintTop_toTopOf="@+id/btn6" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="#FFA701"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnminus"
+        app:layout_constraintEnd_toEndOf="@+id/btnminus"
+        app:layout_constraintStart_toStartOf="@+id/btnminus"
+        app:layout_constraintTop_toTopOf="@+id/btnminus" />
+
+    <ImageView
+        android:id="@+id/btn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="@+id/btn4"
+        app:layout_constraintTop_toBottomOf="@+id/btn4"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btn2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="@+id/btn5"
+        app:layout_constraintTop_toTopOf="@+id/btn1"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btn3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="@+id/btn6"
+        app:layout_constraintTop_toTopOf="@+id/btn2"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btnplus"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="@+id/btnminus"
+        app:layout_constraintTop_toTopOf="@+id/btn3"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn1"
+        app:layout_constraintEnd_toEndOf="@+id/btn1"
+        app:layout_constraintStart_toStartOf="@+id/btn1"
+        app:layout_constraintTop_toTopOf="@+id/btn1" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn2"
+        app:layout_constraintEnd_toEndOf="@+id/btn2"
+        app:layout_constraintStart_toStartOf="@+id/btn2"
+        app:layout_constraintTop_toTopOf="@+id/btn2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn3"
+        app:layout_constraintEnd_toEndOf="@+id/btn3"
+        app:layout_constraintStart_toStartOf="@+id/btn3"
+        app:layout_constraintTop_toTopOf="@+id/btn3" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textColor="#FFA701"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnplus"
+        app:layout_constraintEnd_toEndOf="@+id/btnplus"
+        app:layout_constraintStart_toStartOf="@+id/btnplus"
+        app:layout_constraintTop_toTopOf="@+id/btnplus" />
+
+    <ImageView
+        android:id="@+id/btn0"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="@+id/btn2"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btndot"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="@+id/btn3"
+        app:layout_constraintTop_toTopOf="@+id/btn0"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/btnequal"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="@+id/btnplus"
+        app:layout_constraintTop_toTopOf="@+id/btndot"
+        app:srcCompat="@drawable/ic_baseline_circle_24_1" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn0"
+        app:layout_constraintEnd_toEndOf="@+id/btn0"
+        app:layout_constraintStart_toStartOf="@+id/btn0"
+        app:layout_constraintTop_toTopOf="@+id/btn0" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btndot"
+        app:layout_constraintEnd_toEndOf="@+id/btndot"
+        app:layout_constraintStart_toStartOf="@+id/btndot"
+        app:layout_constraintTop_toTopOf="@+id/btndot" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/btnequal"
+        app:layout_constraintEnd_toEndOf="@+id/btnequal"
+        app:layout_constraintStart_toStartOf="@+id/btnequal"
+        app:layout_constraintTop_toTopOf="@+id/btnequal" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
